@@ -5,6 +5,36 @@
   margin: 0%;
 }
 
+h1 {
+  font-size: 40px;
+  font-weight: 400;
+  line-height : 70px;
+} 
+
+h2 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.botonColorRojizo {
+  background: linear-gradient(to right, #ee0979, #ff6a00);
+  font-size: 14px;
+  border: 0px;
+  padding: 20px;
+  opacity: 80%;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.botonColorRojizo:hover {
+  opacity: 100%;
+}
+
+
 .header {
   height: 100px;
   padding-left: 300px;
@@ -277,12 +307,12 @@ h2 {
 }
 
 #form {
-  text-align: center;
-  justify-content:flex-end;
+  text-align: left;
   font-size: 14px;
   margin-top: 100px;
+  margin-right: 300px;
+  margin-left: 300px;
   line-height: 10px;
-  width: 100%;
 }
 
 .formInput {
