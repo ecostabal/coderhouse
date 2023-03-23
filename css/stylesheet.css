@@ -49,6 +49,10 @@ ul {
   background-clip: text;
 }
 
+.link:visited {
+  list-style: none;
+} 
+
 .logoMalaga {
   display: flex;
   height: 45px;
@@ -311,7 +315,7 @@ margin-bottom: 100px;
   padding: 30px 50px 30px 50px;
 }
 
-.footer {
+.footer2 {
   grid-area: footer;
   border-top: solid 1px rgb(245, 245, 245);
   display: flex;
