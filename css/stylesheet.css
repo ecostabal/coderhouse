@@ -294,19 +294,36 @@ margin-bottom: 100px;
   display: grid;
   grid-template-columns: 400px auto;
   grid-template-rows: 60px auto 60px;
-  grid-template-areas:    "nav header"
+  grid-template-areas:    "nav headerPropiedades"
                           "nav main"
                           "nav footer";
 }
 
 .headerPropiedades {
-  grid-area: header;
+  grid-area: headerPropiedades;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding-right: 50px;
   padding-left: 50px;
   border-bottom: solid 1px rgb(245, 245, 245);
+}
+
+.navBar2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoWeb {
+  height: 30px;
+}
+
+.link {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
 }
 
 .nav {
@@ -319,28 +336,15 @@ margin-bottom: 100px;
   padding: 30px 50px 30px 50px;
 }
 
-.footer3 {
+.footer2 {
   grid-area: footer;
   border-top: solid 1px rgb(245, 245, 245);
+}
+
+.textoFooter {
   display: flex;
+  flex-direction: row;
   justify-content: center;
-  align-items: center;
-}
-
-.navBar2 {
-  display: inline-flex;
-}
-
-.logoWeb {
-  height: 30px;
-}
-
-.link {
-  display: flex;
-  flex-direction: column;
-  padding: 20px;
-  text-decoration: none;
-  list-style: none;
 }
 
 .filtroBusqueda {
