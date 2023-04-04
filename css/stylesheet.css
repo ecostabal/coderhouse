@@ -309,9 +309,7 @@ h2 {
 #form {
   text-align: left;
   font-size: 14px;
-  margin-top: 100px;
-  margin-right: 300px;
-  margin-left: 300px;
+  margin-top: 50px;
   line-height: 10px;
 }
 
@@ -319,8 +317,24 @@ h2 {
 width: 100%;
 }
 
+#margenesContacto{
+margin-left: 10vh;
+margin-right: 10vh;
+justify-content: space-around;
+}
+
+#textoContacto {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
 #mapEmbed {
 margin-bottom: 100px;
+margin-top: 50px;
+display: flex;
+max-width: 100%;
+justify-content: center;
 }
 
 /* página de resultados */
@@ -382,11 +396,6 @@ margin-bottom: 100px;
   border-top: solid 1px rgb(245, 245, 245);
 }
 
-.textoFooter {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
 
 .filtroBusqueda {
   display: flex;
