@@ -1,3 +1,11 @@
+@import "variables.scss";
+@import "reset";
+@import "utilidades";
+@import "header";
+
+
+
+
 *{
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
@@ -34,31 +42,10 @@
     opacity: 100%;
   }
   
-  
-  .header {
-    height: 100px;
-    padding-left: 300px;
-    padding-right: 300px;
-    align-content: center;
-    border-bottom: solid 1px rgb(228, 228, 228);
-    position: sticky;
-    top: 0px;
-    display:flex;
-    align-items: center;
-    background-color: white;
-    z-index: 10;  
-  }
-  
-  .logoMalaga {
-    display: flex;
-    height: 45px;
-  }
+
   
   
-  .navBar {
-    position: absolute;
-    right: 300px;
-  }
+
   
   ul {
     list-style: none;
@@ -240,16 +227,6 @@
     padding-bottom: 20px;
     text-align: center;
   }
-   
-  .footerBottom {
-    height: fit-content;
-    background-color: #f5f5f5;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-size: 12px;
-    text-align: center;
-    -webkit-text-fill-color: rgb(46, 46, 46);
-  }
   
   .titleTab {
     align-items: center;
@@ -277,10 +254,6 @@
     -webkit-text-fill-color: white;
   }
   
-  .contenedorPropiedades {
-    height: 500px;
-    background-color: rgba(204, 227, 236, 0.158);
-  }
   
   .historyTitle {
     background: linear-gradient(to right, #ee0979, #ff6a00);
@@ -339,69 +312,17 @@
   
   /* página de resultados */
   
-  .gridContenedor {
-    width: 100%;
-    height: 100vh;
-    margin: 0% auto;
-    display: grid;
-    grid-template-columns: 400px auto;
-    grid-template-rows: 60px auto 60px;
-    grid-template-areas:    "nav headerPropiedades"
-                            "nav main"
-                            "nav footer";
-  }
-  
-  .headerPropiedades {
-    grid-area: headerPropiedades;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-right: 50px;
-    padding-left: 50px;
-    border-bottom: solid 1px rgb(245, 245, 245);
-  }
-  
-  .navBar2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .logoWeb {
-    height: 30px;
-  }
-  
-  .link {
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-  }
-  
-  .nav {
-    grid-area: nav;
-    border-right: solid 1px rgb(245, 245, 245);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .main {
-    grid-area: main;
-    padding: 30px 50px 30px 50px;
-  }
-  
-  .footer2 {
-    grid-area: footer;
-    border-top: solid 1px rgb(245, 245, 245);
-  }
-  
+
+
   
   .filtroBusqueda {
     display: flex;
+    margin-top: 20px;
     justify-content: center;
     align-items: center;
     background-color: aliceblue;
     border-radius: 10px;
     height: 40px;
+    top: 70px;
+    position: sticky;
   }
