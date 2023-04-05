@@ -1,4 +1,11 @@
 @charset "UTF-8";
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  margin: 0%;
+}
+
 .header {
   display: flex;
   flex-direction: column;
