@@ -1,17 +1,15 @@
 @import "variables.scss";
+@import "mixin";
+@import "bucles";
 @import "reset";
+@import "keyframes";
 @import "utilidades";
 @import "header";
 @import "footer";
 
 
 
-*{
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-    text-decoration: none;
-    margin: 0%;
-  }
+
   
   h1 {
     font-size: 40px;
