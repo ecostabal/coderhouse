@@ -46,11 +46,18 @@
   -webkit-text-fill-color: rgb(46, 46, 46);
 }
 
-* {
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
-  text-decoration: none;
-  margin: 0%;
+.seccionError {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.imagen404 {
+  margin-bottom: 30px;
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 h1 {
