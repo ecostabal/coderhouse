@@ -1,2 +1,9 @@
 $color-rojizo: linear-gradient(to right, #ee0979, #ff6a00);
 
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1320px
+);
