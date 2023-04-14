@@ -1,0 +1,30 @@
+#form {
+    text-align: left;
+    font-size: 14px;
+    margin-top: 50px;
+    line-height: 10px;
+  }
+  
+  .formInput {
+  width: 100%;
+  }
+  
+  #margenesContacto{
+  margin-left: 10vh;
+  margin-right: 10vh;
+  justify-content: space-around;
+  }
+  
+  #textoContacto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  
+  #mapEmbed {
+  margin-bottom: 100px;
+  margin-top: 50px;
+  display: flex;
+  max-width: 100%;
+  justify-content: center;
+  }
