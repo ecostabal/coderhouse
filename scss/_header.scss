@@ -1,5 +1,7 @@
 .logoMalaga {
-    height: 40px;
+    height: 30px;
+    margin-right: 40px;
+    margin-left: 10px;
 }
 
 .navBarMargenes {
@@ -8,7 +10,7 @@
 }
 
 .cajaNav {
-  height: 60px;
+  height: 80px;
   background-color: rgb(255, 255, 255);
 }
 
@@ -59,4 +61,10 @@ ul {
   justify-content: center;
   padding-bottom: 30px;
   height: 120px;
+}
+
+.subMenu {
+  width: auto;
+  padding: 20px 0;
+  text-align: center;
 }
