@@ -1,27 +1,19 @@
-.header {
-display: flex;
-flex-direction: column;
-height: 100px;
-width: 100%;
-border-bottom: solid 1px rgb(228, 228, 228);
-justify-content: center;
-position: sticky;
-top: 0px;
-z-index: 1;
-background-color: white;
-}
-
 .logoMalaga {
     height: 40px;
-    display: flex;
-    align-items: center;
-    margin-right: 40px;
-    margin-left: 50px;
-  }
+}
 
+.navBarMargenes {
+  margin-left: 20px;
+  margin-right: 20px;
+}
 
-#hamburguesa {
-   margin-right: 50px;
+.cajaNav {
+  height: 80px;
+  background-color: rgb(255, 255, 255);
+}
+
+.espaciosNav {
+  margin-left: 40px;
 }
 
 ul {

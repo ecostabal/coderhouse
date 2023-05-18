@@ -17,33 +17,28 @@
   </head>
   <body>
     <!--esta es la cabecera-->
-    <div class="header">
-      <nav class="navbar navbar-expand-md navbar-light">
-          <a href="../index.html"><img  class="logoMalaga" src="../assets/img/logotest.png" alt="Logo Página Web" srcset=""></a>
-      <button class="navbar-toggler" id="hamburguesa" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="../index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./propiedades.html">Propiedades</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Nosotros</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link" href="./historia.html">Historia</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./contacto.html">Contacto</a>
-            </li>
-        </ul>
-      </div>
-    </nav>
-  </div>
+    <header>
+      <div class=" cajaNav fixed-top">
+        <div class=" cajaNav fixed-top d-flex align-items-center">
+          <nav class="navbar navbar-expand-lg navbar-light navBarMargenes bg-white">
+            <div class="container-fluid">
+                <a href="../index.html"><img  class="logoMalaga" src="../assets/img/logotest.png" alt="Logo Página Web" srcset=""></a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse espaciosNav" id="navbarCollapse">
+                    <div class="navbar-nav">
+                      <a href="/index.html" class="nav-item nav-link active">Home</a>
+                      <a href="/pages/propiedades.html" class="nav-item nav-link">Propiedades</a>
+                      <a href="#" class="nav-item nav-link">Nosotros</a>
+                      <a href="/pages/historia.html" class="nav-item nav-link">Historia</a>
+                      <a href="/pages/contacto.html" class="nav-item nav-link">Contacto</a>
+                    </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+    </header>
     <!--secciones-->
     <main>
       <section class="fondoTitle">
